@@ -3,5 +3,5 @@
 
 def read_file(filename="", text=""):
     """Prints the contents of the text file"""
-    with open(filename, encoding="utf-8") as f:
+    with open(filename,"w", encoding="utf-8") as f:
         print(f.read(), end="")
